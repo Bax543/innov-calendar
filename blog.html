@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог | Цифровой календарь Инноваций</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Цифровой календарь Инноваций</div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">О нас</a>
+            <a href="blog.html">Блог</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <main class="blog-container">
+        
+        <section class="blog-hero">
+            <h1>Блог о инновациях</h1>
+            <p>Здесь мы собираем самые интересные статьи о технологиях будущего, которые меняют наш мир прямо сейчас</p>
+        </section>
+
+        <section class="categories">
+            <h2>Категории</h2>
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">Все статьи</button>
+                <button class="category-btn" data-category="ai">Искусственный интеллект</button>
+                <button class="category-btn" data-category="quantum">Квантовые технологии</button>
+                <button class="category-btn" data-category="startups">Стартапы</button>
+            </div>
+        </section>
+
+        <section class="blog-posts">
+            
+            <article class="blog-post" data-categories="quantum">
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Квантовые компьютеры">
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category quantum">Квантовые технологии</span>
+                        <span class="post-date">12 мая 2024</span>
+                    </div>
+                    <h3><a href="quantum-breakthrough.html">Квантовые компьютеры: новый прорыв</a></h3>
+                    <p>Ученые достигли рекордной стабильности кубитов, что открывает новые горизонты для квантовых вычислений и приближает нас к практическому квантовому превосходству.</p>
+                    <a href="quantum-breakthrough.html" class="read-more">Читать далее →</a>
+                </div>
+            </article>
+
+            <article class="blog-post" data-categories="ai">
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="ИИ в медицине">
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category ai">Искусственный интеллект</span>
+                        <span class="post-date">15 мая 2024</span>
+                    </div>
+                    <h3><a href="ai-in-medicine.html">ИИ в медицине: диагностика за секунды</a></h3>
+                    <p>Новая нейросеть MedAI-Net способна анализировать медицинские данные и ставить предварительный диагноз с точностью свыше 98% менее чем за 30 секунд.</p>
+                    <a href="ai-in-medicine.html" class="read-more">Читать далее →</a>
+                </div>
+            </article>
+
+            <article class="blog-post" data-categories="quantum startups">
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Квантовые стартапы">
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category quantum">Квантовые технологии</span>
+                        <span class="post-category startups">Стартапы</span>
+                        <span class="post-date">18 мая 2024</span>
+                    </div>
+                    <h3><a href="top-quantum-startups.html">Топ-5 квантовых стартапов 2024 года</a></h3>
+                    <p>Обзор самых перспективных квантовых стартапов, которые привлекают инвестиции и решают реальные проблемы в различных отраслях промышленности.</p>
+                    <a href="top-quantum-startups.html" class="read-more">Читать далее →</a>
+                </div>
+            </article>
+
+            <article class="blog-post" data-categories="ai quantum">
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="ИИ и квантовые компьютеры">
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category ai">Искусственный интеллект</span>
+                        <span class="post-category quantum">Квантовые технологии</span>
+                        <span class="post-date">22 мая 2024</span>
+                    </div>
+                    <h3><a href="ai-quantum-symbiosis.html">ИИ и квантовые компьютеры: симбиоз будущего</a></h3>
+                    <p>Как две самые прорывные технологии современности объединяются, создавая синергию для решения проблем, недоступных каждой из них по отдельности.</p>
+                    <a href="ai-quantum-symbiosis.html" class="read-more">Читать далее →</a>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="pagination">
+            <button class="pagination-btn active">1</button>
+            <button class="pagination-btn">2</button>
+            <button class="pagination-btn">3</button>
+            <span class="pagination-dots">...</span>
+            <button class="pagination-btn">→</button>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Будьте в курсе инноваций</h2>
+                <p>Подпишитесь на нашу рассылку и получайте самые интересные статьи первыми</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Ваш email" required>
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Цифровой календарь Инноваций. Все права защищены.</p>
+    </footer>
+
+    <script>
+        // Фильтрация по категориям
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const blogPosts = document.querySelectorAll('.blog-post');
+
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Убираем активный класс у всех кнопок
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    // Добавляем активный класс текущей кнопке
+                    this.classList.add('active');
+                    
+                    const category = this.getAttribute('data-category');
+                    
+                    // Показываем/скрываем статьи в зависимости от категории
+                    blogPosts.forEach(post => {
+                        if (category === 'all' || post.getAttribute('data-categories').includes(category)) {
+                            post.style.display = 'flex';
+                        } else {
+                            post.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Простая валидация формы подписки
+            const newsletterForm = document.querySelector('.newsletter-form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const email = this.querySelector('input[type="email"]').value;
+                    if (email) {
+                        alert('Спасибо за подписку! Проверьте вашу почту для подтверждения.');
+                        this.reset();
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>

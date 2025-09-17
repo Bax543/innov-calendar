@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Цифровой календарь Инноваций</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Иконки для соцсетей -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Цифровой календарь Инноваций</div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">О нас</a>
+            <a href="blog.html">Блог</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <main class="contacts-container">
+        
+        <section class="contacts-hero">
+            <h1>Свяжитесь с нами</h1>
+            <p>Мы всегда открыты для общения, сотрудничества и новых идей!</p>
+        </section>
+
+        <section class="cooperation">
+            <h2>Мы готовы к сотрудничеству</h2>
+            <p>Нас интересует взаимодействие с авторами, IT-специалистами, научными сотрудниками, стартапами и компаниями, которые работают в сфере инноваций. Если у вас есть интересная тема для публикации, новость или предложение о партнерстве — будем рады обсудить!</p>
+        </section>
+
+        <div class="contacts-wrapper">
+            <section class="contact-info">
+                <h2>Наши контакты</h2>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>innov-calendar@mail.ru</p>
+                        <span>Основной способ связи для деловых предложений</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Телефон</h3>
+                        <p>+7 (495) 123-45-67</p>
+                        <span>Пн-Пт с 10:00 до 19:00 по МСК</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Telegram</h3>
+                        <p>@innov_calendar</p>
+                        <span>Оперативная связь и новостной канал</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-vk"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>ВКонтакте</h3>
+                        <p>vk.com/innov_calendar</p>
+                        <span>Наше сообщество с ежедневными обновлениями</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="contact-form">
+                <h2>Напишите нам</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Как к вам обращаться?" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Ваш email</label>
+                        <input type="email" id="email" placeholder="Для обратной связи" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Тема сообщения</label>
+                        <input type="text" id="subject" placeholder="О чем вы хотите рассказать?" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" rows="5" placeholder="Расскажите подробнее..." required></textarea>
+                    </div>
+                    
+                    <button type="submit">Отправить сообщение</button>
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Цифровой календарь Инноваций. Все права защищены.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
